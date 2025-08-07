@@ -1,7 +1,7 @@
 from django.db import models 
 from django.contrib.auth.models import AbstractUser 
 from django.core.validators import MinValueValidator, MaxValueValidator
-from django.db.models import CharField, ForeignKey
+from django.db.models import CharField, ForeignKey 
 from phonenumber_field.modelfields import PhoneNumberField
 
 STATUS_CHOICES = (
